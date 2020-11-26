@@ -1,0 +1,20 @@
+$white: #fff;
+$light: #e4dede;
+
+$rounded: 3px;
+
+.column {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: $light;
+  width: 300px;
+  height: 400px;
+  margin-right: 12px;
+  padding: 12px;
+  border-radius: $rounded;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
